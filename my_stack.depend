@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1716125160 source:c:\users\marwa abdelrahman\documents\codeblocks\my_stack\my_stack\main.c
+	<stdio.h>
+	<stdlib.h>
+	"stack_st.h"
+
+1716209489 source:c:\users\marwa abdelrahman\documents\codeblocks\my_stack\my_stack\stack_st.c
+	"stack_st.h"
+
+1716209486 c:\users\marwa abdelrahman\documents\codeblocks\my_stack\my_stack\stack_st.h
+	"std_def.h"
+	<stdlib.h>
+
+1716123883 c:\users\marwa abdelrahman\documents\codeblocks\my_stack\my_stack\std_def.h
+
