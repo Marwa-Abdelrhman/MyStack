@@ -106,7 +106,7 @@ return_status_t stack_pop(stack_t *my_stack,uint32_t *value)
     {
 
         *value=my_stack->data[my_stack->stack_top];
-        my_stack->stack_top--;
+        (my_stack->stack_top)--;
         #ifdef STACK_DEBUG_MODE
         printf("value (%i) is popped from the stack.\n",*value);
         #endif // STACK_DEBUG_MODE
@@ -137,7 +137,7 @@ return_status_t stack_push(stack_t *my_stack,uint32_t value)
     else
     {
 
-        my_stack->stack_top++;
+        (my_stack->stack_top)++;
         my_stack->data[my_stack->stack_top]=value;
 
         #ifdef STACK_DEBUG_MODE
