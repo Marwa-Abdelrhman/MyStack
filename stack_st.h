@@ -19,7 +19,7 @@
 
 typedef struct
 {
-    uint32_t stack_top;
+    sint32_t stack_top;
     uint32_t data[STACK_MAX_SIZE];
 
 }stack_t;
